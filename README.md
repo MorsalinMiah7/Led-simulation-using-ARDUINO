@@ -1,39 +1,39 @@
-# Led-simulation-using-ARDUINO
-int Red1 = 13;
-int Green1 = 12;
-int Red2 = 8;
-int Green2 = 6;
-int Red3 = 3;
-int Green3 = 2;
-void setup()
-{
-  pinMode(Red1, OUTPUT);
-  pinMode(Green1, OUTPUT);
-  pinMode(Red2, OUTPUT);
-  pinMode(Green2, OUTPUT);
-  pinMode(Red3, OUTPUT);
-  pinMode(Green3, OUTPUT);
-}
+# LED Simulation using Arduino  
 
-void loop()
-{
-  digitalWrite(Red1, HIGH);
-  digitalWrite(Red2, HIGH);
-  digitalWrite(Red3, HIGH);
-  delay(1000);
-  
-  digitalWrite(Red1, LOW);
-  digitalWrite(Red2, LOW);
-  digitalWrite(Red3, LOW);
-  delay(500);
-  
-  digitalWrite(Green1, HIGH);
-  digitalWrite(Green2, HIGH);
-  digitalWrite(Green3, HIGH);
-  delay(1000);
-   
-  digitalWrite(Green1, LOW);
-  digitalWrite(Green2, LOW);
-  digitalWrite(Green3, LOW);
-  delay(500);
-}
+## 🛠 Project Description  
+This project demonstrates how to control multiple LEDs using an **Arduino Uno** and a **breadboard**. The LEDs are connected to digital pins of the Arduino and can be programmed to blink in different patterns.  
+
+## 📸 Circuit Diagram  
+![LED Simulation](Led%20simulation%20using%20ARDUINO.png)  
+
+## 🔧 Components Required  
+- Arduino Uno  
+- Breadboard  
+- 5 LEDs (Red & Green)  
+- 5 Resistors (220Ω each)  
+- Jumper wires  
+
+## 🔌 Circuit Connections  
+| **Arduino Pin** | **LED Number** | **Connection** |
+|---------------|--------------|-------------|
+| 2            | LED 1        | Anode (+) |
+| 3            | LED 2        | Anode (+) |
+| 4            | LED 3        | Anode (+) |
+| 5            | LED 4        | Anode (+) |
+| 6            | LED 5        | Anode (+) |
+| GND          | All LEDs     | Cathode (-) |
+
+Each LED is connected in series with a **220Ω resistor** to limit the current.
+
+**🚀 How to Run**
+Connect the circuit as per the wiring diagram.
+Open Arduino IDE.
+Copy and paste the above code into the IDE.
+Select the correct board (Arduino Uno) and port.
+Click Upload to flash the code onto the board.
+Observe the LEDs blinking in sequence!
+
+**🎯 Features**
+✅ Blinking LEDs in a sequential pattern.
+✅ Easily expandable for more LEDs.
+✅ Demonstrates the use of digital pins.
