@@ -1,7 +1,7 @@
 # LED Simulation using Arduino  
 
 ## 🛠 Project Description  
-This project demonstrates how to control multiple LEDs using an **Arduino Uno** and a **breadboard**. The LEDs are connected to digital pins of the Arduino and can be programmed to blink in different patterns.  
+This project demonstrates how to control multiple LEDs using an Arduino Uno and a breadboard. The LEDs are connected to the Arduino's digital pins and can be programmed to blink in different patterns.  
 
 ## 📸 Circuit Diagram  
 ![LED Simulation](Led%20simulation%20using%20ARDUINO.png)  
