@@ -28,7 +28,7 @@ Each LED is connected in series with a **220Ω resistor** to limit the current.
 **🚀 How to Run**
 Connect the circuit as per the wiring diagram.
 Open Arduino IDE.
-Copy and paste the above code into the IDE.
+Copy and paste the code from the code file into the IDE.
 Select the correct board (Arduino Uno) and port.
 Click Upload to flash the code onto the board.
 Observe the LEDs blinking in sequence!
